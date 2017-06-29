@@ -9,11 +9,11 @@ import Router from './Router'
 class App extends Component {
   componentWillMount() {
     const config = {
-      apiKey: "AIzaSyDcwPg_-th_J_kgQ-7oCezBsUKDTjwUaqM",
+      apiKey: "API_KEY",
       authDomain: "manager-e3d03.firebaseapp.com",
       databaseURL: "https://manager-e3d03.firebaseio.com",
       storageBucket: "manager-e3d03.appspot.com",
-      messagingSenderId: "855799248377"
+      messagingSenderId: "MESSGAING_SENDER_ID"
   };
   firebase.initializeApp(config);
   }
